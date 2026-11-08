@@ -6,7 +6,7 @@ int main(void) {
 
     scanf("%d", &x);
     result = 1.0 / (x + 100);
-    printf("%f", result);
+    printf("%.15f", result);
 
     return 0;
 }
